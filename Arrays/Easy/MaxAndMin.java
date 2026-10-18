@@ -1,3 +1,5 @@
+//Problem: Find the Max and Min in given array
+
 public class MaxAndMin {
     public static void maxAndmin(int arr[]){
         int max=arr[0];
