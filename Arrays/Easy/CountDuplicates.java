@@ -1,7 +1,6 @@
 import java.util.*;
 
 //Problem:Count Duplicates in given array
-
 public class CountDuplicates{
     public static void countDuplicates(int arr[]){
        int count=0;
@@ -10,11 +9,10 @@ public class CountDuplicates{
             count++;
             }
         }
-    
-        System.out.println(count);
+      System.out.println(count);
     }
     public static void main(String[] args) {
-        int arr[]={1,2,2,2,3,4,4};
+        int arr[]={1,2,2,2,3,4,4};// duplicates = 2 (because 1 original + 2 extra)
         countDuplicates(arr);
     }
 }
